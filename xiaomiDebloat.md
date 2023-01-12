@@ -43,6 +43,6 @@
    `List of devices attached`
 
    `b71ab4796d23    device`
-6. Download the "[debloat.bat](https://github.com/mnjx/xiaomiDebloat/blob/main/debloat.bat)" file, move it into the folder containing the ADB tools and execute is as administrator.
+6. Download the [debloat.bat](https://github.com/mnjx/xiaomiDebloat/blob/main/debloat.bat) file, move it into the folder containing the ADB tools and execute is as administrator.
 7. Once it shows `DONE` in the terminal, you can close the command prompt and disconnect your phone from your PC.
 8. You should now have a debloated Xiaomi phone.
