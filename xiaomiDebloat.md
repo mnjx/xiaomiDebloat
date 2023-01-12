@@ -16,7 +16,7 @@
 ### ***Phone***
 
 + **F-Droid and/or Aurora store:** F-Droid: https://f-droid.org/, Aurora store: Get it on F-Droid
-+ **A web browser:** I recommend Bromite https://bromite.org, Brave https://brave.com or LibreWolf https://librewolf.net
++ **A web browser:** I recommend Bromite https://bromite.org or Brave https://brave.com
 + **Simple keyboard app from F-Droid:** Get it on F-Droid
 + **Enable USB debugging:** Go to settings, about phone, and start clicking on the "MIUI Version" button until it shows
   a message that shows "Voilà, you are now a developer!", go back to settings, click on
