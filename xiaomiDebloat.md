@@ -11,11 +11,21 @@
   click "Update driver", click "Browse for drivers in my computer", now you should see
   a "Browse..." button, click it and navigate to your extracted folder with the USB drivers, click "OK", click "Next",
   now your USB drivers should be installed.
-+ **ADB tools:** https://developer.android.com/studio/releases/platform-tools, extract the archive.
++ **ADB tools:** https://developer.android.com/studio/releases/platform-tools, download the version for Windows and extract the archive.
+
+### ***Linux***
+
++ Note that you don't need USB drivers on Linux or macOS.
++ **ADB tools:** https://developer.android.com/studio/releases/platform-tools, download the version for Linux and extract the archive.
+
+### ***macOS***
+
++ *Note that you don't need USB drivers on Linux or macOS.*
++ **ADB tools:** https://developer.android.com/studio/releases/platform-tools, download the version for macOS and extract the archive.
 
 ### ***Phone***
 
-+ **F-Droid and/or Aurora store:** F-Droid: https://f-droid.org/, Aurora store: Get it on F-Droid
++ **F-Droid and/or Aurora store:** F-Droid: https://f-droid.org, Aurora store: Get it on F-Droid
 + **A web browser:** I recommend Bromite https://bromite.org or Brave https://brave.com
 + **Simple keyboard app from F-Droid:** Get it on F-Droid
 + **Enable USB debugging:** Go to settings, about phone, and start clicking on the "MIUI Version" button until it shows
@@ -43,6 +53,51 @@
    `List of devices attached`
 
    `b71ab4796d23    device`
-6. Download the [debloat.bat](https://github.com/mnjx/xiaomiDebloat/blob/main/debloat.bat) file, move it into the folder containing the ADB tools and execute is as administrator.
-7. Once it shows `DONE` in the terminal, you can close the command prompt and disconnect your phone from your PC.
+6. Download the [debloat.bat](https://github.com/mnjx/xiaomiDebloat/blob/main/debloat.bat) file, move it into the folder containing the ADB tools and execute it as administrator.
+7. Once it shows `DONE` in the command prompt, you can close it and disconnect your phone from your PC.
 8. You should now have a debloated Xiaomi phone.
+
+## Debloating from a Linux PC:
+
+1. Open the folder containing the ADB tools and right click in the File Manager window and then click "Open in Terminal". 
+2. Into the Terminal type `./adb devices`.
+
+   *You should see something like:*
+
+   `List of devices attached`
+
+   `b71ab4796d23    unauthorized`
+3. Move over to your phone, and authorize the PC to make changes to the phone (the phone should prompt you).
+4. Again type `./adb devices`.
+
+   *You should see something like:*
+
+   `List of devices attached`
+
+   `b71ab4796d23    device`
+5. Download the [debloat.sh](https://github.com/mnjx/xiaomiDebloat/blob/main/debloat.sh) file, move it into the folder containing the ADB tools and execute it with sudo privileges.
+6. Once it shows `DONE` in the Terminal, you can close it and disconnect your phone from your PC.
+7. You should now have a debloated Xiaomi phone.
+
+## Debloating from a macOS PC:
+
+1. Open the folder containing the ADB tools and right click in the File Manager window and then click "Open in Terminal". 
+2. Into the Terminal type `./adb devices`.
+
+   *You should see something like:*
+
+   `List of devices attached`
+
+   `b71ab4796d23    unauthorized`
+3. Move over to your phone, and authorize the PC to make changes to the phone (the phone should prompt you).
+4. Again type `./adb devices`.
+
+   *You should see something like:*
+
+   `List of devices attached`
+
+   `b71ab4796d23    device`
+5. Download the [debloat.sh](https://github.com/mnjx/xiaomiDebloat/blob/main/debloat.sh) file, move it into the folder containing the ADB tools and execute it with sudo privileges.
+6. Once it shows `DONE` in the Terminal, you can close it and disconnect your phone from your PC.
+7. You should now have a debloated Xiaomi phone.
+
